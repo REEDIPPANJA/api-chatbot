@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());   
 
-app.post("/gemini", async (req, res) => {
+app.post("/", async (req, res) => {
   try {
     const response = await axios.post(
       `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${process.env.GEMENI_URL}`,

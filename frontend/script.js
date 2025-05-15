@@ -1,5 +1,5 @@
 const btn=document.querySelector('#btn')
-const url= "http://localhost:3000/gemini"; 
+const url= "https://api-chatbot-1-uvt1.onrender.com"; 
 
 
 
